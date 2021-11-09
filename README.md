@@ -1,8 +1,6 @@
 # README
 
-## Lesson link
-
-[YouTube] (https://www.youtube.com/watch?v=V8LzZerErXU)
+- [Link to lesson video] (https://www.youtube.com/watch?v=V8LzZerErXU)
 
 ## Group exercise
 
