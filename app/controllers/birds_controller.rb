@@ -10,4 +10,12 @@ class BirdsController < ApplicationController
         render json: @bird
     end
 
+    def create
+        @bird = Bird.create(
+            name: params[:name],
+            species: params[:species]
+        )
+        render json: @bird
+    end
+
 end
