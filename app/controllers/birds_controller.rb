@@ -13,7 +13,8 @@ class BirdsController < ApplicationController
     def create
         @bird = Bird.create(
             name: params[:name],
-            species: params[:species]
+            species: params[:species],
+            tree_id: params[:tree_id]
         )
         render json: @bird, status: :created
     end
